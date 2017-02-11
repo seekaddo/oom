@@ -146,6 +146,13 @@ string a2 = @ "\\server\fileshare\helloworld.cs";
     Console.Write ($"A square has {x} sides"); // Prints: A square has 4 sides
     
     string s = $"255 in hex is {byte.MaxValue:X2}"; // X2 = 2-digit Hexadecimal // Evaluates to "255 in hex is FF"
+    
+    string s = "hello";
+    Console.WriteLine (s[0]); // 'h'
+    Console.WriteLine (s[3]); // 'l'
+    
+    string s = null;
+    Console.WriteLine (s?[0]); // Writes nothing; no error.  to avoid errors
 
 ```
 
