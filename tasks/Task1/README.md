@@ -224,11 +224,253 @@ class Test {
 
 
 ```
-* Defaul values
+* Default values
 
 ```c#
 //You can obtain the default value for any type with the default keyword 
 
 decimal d = default (decimal);
 ```
+
+* Parameters, Pass by Value and Pass by reference
+
+```c#
+//pass by value
+class Test {
+  static void Foo (int p)
+  {
+    p = p + 1;
+    Console.WriteLine (p);
+     static void Main()
+     {
+    // Increment p by 1
+    // Write p to screen
+    // Make a copy of x
+    // x will still be 8
+    int x = 8;
+    Foo (x);
+    Console.WriteLine (x);
+
+     } 
+}
+
+
+///pass by reference with the ref
+
+class Test {
+static void Foo (ref int p) {
+}
+    p = p + 1;
+  Console.WriteLine (p);
+}
+  
+static void Main()
+    {
+// Increment p by 1
+// Write p to screen
+// Ask Foo to deal directly with x
+// x is now 9
+         int x = 8;
+        Foo (ref x); Console.WriteLine (x);
+   }
+ }
+ 
+ //out modifier
+ The out modifier is most commonly used to get multiple return values back from a method
+ An out argument is like a ref argument, except it:
+• Need not be assigned before going into the function
+• Must be assigned before it comes out of the function
+ class Test {
+      static void Split (string name, out string firstNames,
+                         out string lastName)
+ {
+   int i = name.LastIndexOf (' ');
+   firstNames = name.Substring (0, i);
+   lastName   = name.Substring (i + 1);
+}
+static void Main()
+    {
+    string a, b;
+    Split ("Stevie Ray Vaughan", out a, out b);
+    Console.WriteLine (a);
+    Console.WriteLine (b);
+    }
+
+}
+
+
+//params
+class Test {
+
+static int Sum (params int[] ints) {
+    int sum = 0;
+    for (int i = 0; i < ints.Length; i++)
+        sum += ints[i]; return sum;
+}
+  static void Main()
+  {
+    int total = Sum (1, 2, 3, 4); Console.WriteLine (total);
+    // Increase sum by ints[i]
+    // 10
+    } 
+}
+
+
+//Named arguements
+
+void Foo (int x, int y) { Console.WriteLine (x + ", " + y); }
+void Test() {
+Foo (x:1, y:2); // 1, 2
+}
+
+Named arguments can occur in any order. The following calls to Foo are semanti‐ cally identical:
+Foo (x:1, y:2); Foo (y:2, x:1);
+
+int a = 0;
+Foo (y: ++a, x: --a); // ++a is evaluated first
+
+
+
+
+
+```
+
+* NUll operators from C#6
+```c#
+    string s1 = null;
+    string s2 = s1 ?? "nothing";   // s2 evaluates to "nothing"
+    
+   // The ?. operator is the null-conditional or “Elvis” operator,
+   
+    System.Text.StringBuilder sb = null;
+    string s = sb?.ToString(); // No error; s instead evaluates to null
+    
+    System.Text.StringBuilder sb = null;
+    string s = sb?.ToString().ToUpper(); // s evaluates to null without error
+    
+    
+    `Achtung`
+    System.Text.StringBuilder sb = null;
+    int length = sb?.ToString().Length; // Illegal : int cannot be null
+    
+    int? length = sb?.ToString().Length; // OK : int? can be null
+    
+    
+    
+System.Text.StringBuilder sb = null;
+string s = sb?.ToString() ?? "nothing"; // s evaluates to "nothing"
+
+The last line is equivalent to:
+    string s = (sb == null ? "nothing" : sb.ToString());
+    
+    
+```
+* switch with goto case anf goto default von [msdn](https://msdn.microsoft.com/en-us/library/06tc147t.aspx)
+
+```c#
+      class Program
+    {
+        static void Main(string[] args)
+        {
+            int switchExpression = 3;
+            switch (switchExpression)
+            {
+                // A switch section can have more than one case label.
+                case 0:
+                case 1:
+                    Console.WriteLine("Case 0 or 1");
+                    // Most switch sections contain a jump statement, such as
+                    // a break, goto, or return. The end of the statement list
+                    // must be unreachable.
+                    break;
+                case 2:
+                    Console.WriteLine("Case 2");
+                    break;
+                    // The following line causes a warning.
+                    Console.WriteLine("Unreachable code");
+                // 7 - 4 in the following line evaluates to 3.
+                case 7 - 4:
+                    Console.WriteLine("Case 3");
+                    break;
+                // If the value of switchExpression is not 0, 1, 2, or 3, the
+                // default case is executed.
+                default:
+                    Console.WriteLine("Default case (optional)");
+                    // You cannot "fall through" any switch section, including
+                    // the last one.
+                    break;
+            }
+        }
+    }
+    
+    
+    //goto case example this is not even possible in `Java`
+        class SwitchTest
+    {
+        static void Main()
+        {
+            Console.WriteLine("Coffee sizes: 1=small 2=medium 3=large");
+            Console.Write("Please enter your selection: ");
+            string str = Console.ReadLine();
+            int cost = 0;
+
+            // Notice the goto statements in cases 2 and 3. The base cost of 25
+            // cents is added to the additional cost for the medium and large sizes.
+            switch (str)
+            {
+                case "1":
+                case "small":
+                    cost += 25;
+                    break;
+                case "2":
+                case "medium":
+                    cost += 25;
+                    goto case "1";
+                case "3":
+                case "large":
+                    cost += 50;
+                    goto case "1";
+                default:
+                    Console.WriteLine("Invalid selection. Please select 1, 2, or 3.");
+                    break;
+            }
+            if (cost != 0)
+            {
+                Console.WriteLine("Please insert {0} cents.", cost);
+            }
+            Console.WriteLine("Thank you for your business.");
+        }
+    }
+    /*
+        Sample Input: 2
+     
+        Sample Output:
+        Coffee sizes: 1=small 2=medium 3=large
+        Please enter your selection: 2
+        Please insert 50 cents.
+        Thank you for your business.
+    */
+    
+```
+
+* NameSpace
+
+
+```c#
+namespace Outer.Middle.Inner
+    {
+      class Class1 {}
+      class Class2 {}
+    }
+    
+    
+    //Repeated namespaces
+//You can repeat a namespace declaration, as long as the type names within the name‐ spaces don’t conflict:
+
+```
+
+
+
+
+* Classes
 
