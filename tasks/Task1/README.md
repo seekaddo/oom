@@ -4,6 +4,7 @@
 ```c#
     class class  {...}      // Illegal
     class @class {...}      // Legal
+    Operator '+' cannot be applied to operands of type 'double' and 'decimal'
 
 
 ```
