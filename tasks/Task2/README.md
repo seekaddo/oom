@@ -32,9 +32,9 @@ Inheritance modifiers `new virtual abstract override sealed`
 Partial method modifier  `partial`
 Unmanaged code modifiers  `unsafe extern`
 Asynchronous code modifier `async`
+````
 
 ```c#
 int Foo (int x) { return x * 2; }
-```
 
 ```
