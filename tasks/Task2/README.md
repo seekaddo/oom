@@ -180,8 +180,101 @@ public string this [int wordNum] => words [wordNum]; // when there are no setter
     Console.WriteLine (s[3]);
     s[3] = "kangaroo";
     Console.WriteLine (s[3]);
+    
+    
+    //Static Classes
+A class can be marked static, indicating that it must be composed solely of static members and cannot be subclassed. The System.Console and System.Math classes are good examples of static classes.
 
 
+
+```
+
+
+* Inheritence
+
+```c#
+A class can inherit from another class to extend or customize the original class. Inheriting from a class lets you reuse the functionality in that class instead of build‐ ing it from scratch. A class can inherit from only a single class but can itself be inherited by many classes, 
+
+public class Stock : Asset {
+  public long SharesOwned;
+}
+public class House : Asset {
+  public decimal Mortgage;
+}
+
+
+Stock msft = new Stock { Name="MSFT", SharesOwned=1000 };
+    Console.WriteLine (msft.Name);         // MSFT
+    Console.WriteLine (msft.SharesOwned);  // 1000
+    
+    
+    
+    House mansion = new House { Name="Mansion",
+                                Mortgage=250000 };
+    Console.WriteLine (mansion.Name);      // Mansion
+    Console.WriteLine (mansion.Mortgage);  // 250000
+    
+    
+    Asset    //base class
+    -   -
+   -     -
+  -       -
+ House    Stock     // this are the subclasses or derived classes
+
+```
+
+
+* Polymorphism
+
+```c#
+References are polymorphic. This means a variable of type x can refer to an object that subclasses x.
+
+This method can display both a Stock and a House, since they are both Assets: Stock msft = new Stock ... ;
+
+public static void Display (Asset asset)
+    {
+      System.Console.WriteLine (asset.Name);
+    }
+    House mansion = new House ... ;
+    Display (msft);
+    Display (mansion);
+    
+    
+    Aber the opposite is not true
+    
+    static void Main() { Display (new Asset()); }  // Compile-time error
+    public static void Display (House house)
+    {
+      System.Console.WriteLine (house.Mortgage);
+    }
+    
+    
+    
+    ///Casting and Reference Conversions
+     An upcast always succeeds; a downcast succeeds only if the object is suitably typed.
+     
+    // Upcasting
+
+    Stock msft = new Stock();
+    Asset a = msft;              // Upcast
+    Console.WriteLine (a == msft); // True
+    Although a and msft refer to the identical object, a has a more restrictive view on
+    that object:
+    Console.WriteLine (a.Name);           // OK
+    Console.WriteLine (a.SharesOwned);    // Error: SharesOwned undefined //To get to its SharesOwned field, you must downcast the Asset to a Stock.
+    
+    //downcast
+    
+Stock msft = new Stock();  
+Asset a = msft;      // Upcast      
+Stock s = (Stock)a; // Downcast
+Console.WriteLine (s.SharesOwned); // <No error>
+Console.WriteLine (s == a); // True
+Console.WriteLine (s == msft);// True
+
+
+    
+    
 
 ```
 
