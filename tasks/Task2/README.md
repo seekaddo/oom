@@ -1,6 +1,9 @@
 ### WELCOME to CLASSES
 
 
+* Book source [C# in a Nutshell 6.0](http://shop.oreilly.com/product/0636920040323.do?sortby=publicationDate)
+
+
 ```
 Preceding the keyword  `class Attributes` and *class* modi ers. The non-nested class modi ers are `public`, `internal`,`abstract`,`sealed`,`static`,`unsafe`, and `partial`
 
