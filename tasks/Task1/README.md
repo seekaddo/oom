@@ -1,5 +1,7 @@
 ####Week 1
 
+* Book source [C# in a Nutshell 6.0](http://shop.oreilly.com/product/0636920040323.do?sortby=publicationDate)
+
 * Pitfalls to avoid
 ```c#
     class class  {...}      // Illegal
