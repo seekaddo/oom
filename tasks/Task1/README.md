@@ -1,9 +1,12 @@
 ####Week 1
 
+* Book source [C# in a Nutshell 6.0](http://shop.oreilly.com/product/0636920040323.do?sortby=publicationDate)
+
 * Pitfalls to avoid
 ```c#
     class class  {...}      // Illegal
     class @class {...}      // Legal
+    Operator '+' cannot be applied to operands of type 'double' and 'decimal'
 
 
 ```
@@ -145,6 +148,13 @@ string a2 = @ "\\server\fileshare\helloworld.cs";
     Console.Write ($"A square has {x} sides"); // Prints: A square has 4 sides
     
     string s = $"255 in hex is {byte.MaxValue:X2}"; // X2 = 2-digit Hexadecimal // Evaluates to "255 in hex is FF"
+    
+    string s = "hello";
+    Console.WriteLine (s[0]); // 'h'
+    Console.WriteLine (s[3]); // 'l'
+    
+    string s = null;
+    Console.WriteLine (s?[0]); // Writes nothing; no error.  to avoid errors
 
 ```
 
