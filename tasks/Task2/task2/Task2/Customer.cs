@@ -7,6 +7,7 @@ namespace Task2
         private string customerName;
         private double balance;
         private string accountType;
+        private const double InitialDeposit = 10D;
 
 
         public Customer(string name)
@@ -14,18 +15,18 @@ namespace Task2
             if (name == null) throw new ArgumentException("You can not create a ghost account!!!");
 
             customerName = name;
-            this.balance = 10D;
+            this.balance = InitialDeposit;
         }
 
         public Customer(string customerName, string accountNo) : this(customerName)
         {
             this.AccountNo = accountNo;
-            this.balance = 10D;
+            this.balance = InitialDeposit;
         }
 
         public Customer(string customerName, string accountNo, double balance) : this(customerName, accountNo)
         {
-            this.balance = balance + 10D;
+            this.balance = balance + InitialDeposit;
         }
 
         public string BankName { get; set; }
