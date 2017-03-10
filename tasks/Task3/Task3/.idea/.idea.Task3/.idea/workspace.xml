@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62b1e73c-115b-4fa8-86fa-827a72127d2d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Task3/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="191" column="1" lean-forward="true" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
+              <folding>
+                <marker date="1489165484000" expanded="true" signature="30:4915" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="64:4913" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="388:554" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="638:814" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="977:1108" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="1182:1277" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="1307:1406" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="1435:1526" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="1561:1666" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="1691:1782" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="1807:1898" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="1912:4447" ph="Vehicle Implementation" />
+                <marker date="1489165484000" expanded="true" signature="1983:2104" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="2142:2190" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="2225:2274" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="2310:2361" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="2423:3101" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="2449:2952" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="2739:2810" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="2868:2937" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="2984:3064" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="3111:3518" ph="/* public bool Equal(Truck o) ... */" />
+                <marker date="1489165484000" expanded="true" signature="3549:4427" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="4495:4907" ph="{...}" />
+                <marker date="1489165484000" expanded="true" signature="4554:4778" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vehicle.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task3/Vehicle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="178" column="82" lean-forward="false" selection-start-line="178" selection-start-column="82" selection-end-line="178" selection-end-column="82" />
+              <folding>
+                <marker date="1489165366000" expanded="true" signature="30:4490" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="61:274" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="311:4488" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="624:782" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="856:1024" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="1162:1216" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="1290:1385" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="1415:1514" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="1543:1634" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="1669:1774" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="1799:1890" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="1915:2006" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="2020:4481" ph="Vehicle Implementation" />
+                <marker date="1489165366000" expanded="true" signature="2099:2220" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="2258:2304" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="2339:2388" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="2424:2475" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="2537:3215" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="2563:3066" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="2853:2924" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="2982:3051" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="3098:3178" ph="{...}" />
+                <marker date="1489165366000" expanded="true" signature="3226:3628" ph="/* public bool Equal(Car o) ... */" />
+                <marker date="1489165366000" expanded="true" signature="3662:4461" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Task3/Vehicle.cs" />
+        <option value="$PROJECT_DIR$/Task3/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="738" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task3 (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task3/Task3.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Task3/bin/Debug/Task3.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task3/bin/Debug" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="RuntimeDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62b1e73c-115b-4fa8-86fa-827a72127d2d" name="Default" comment="" />
+      <created>1488990417387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488990417387</updated>
+      <workItem from="1488990418874" duration="1299000" />
+      <workItem from="1489154369461" duration="5931000" />
+      <workItem from="1489162162512" duration="3474000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10704000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="738" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15078124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Task3/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489165484000" expanded="true" signature="30:4915" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="64:4913" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="388:554" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="638:814" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="977:1108" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1182:1277" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1307:1406" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1435:1526" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1561:1666" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1691:1782" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1807:1898" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1912:4447" ph="Vehicle Implementation" />
+            <marker date="1489165484000" expanded="true" signature="1983:2104" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2142:2190" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2225:2274" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2310:2361" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2423:3101" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2449:2952" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2739:2810" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2868:2937" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2984:3064" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="3111:3518" ph="/* public bool Equal(Truck o) ... */" />
+            <marker date="1489165484000" expanded="true" signature="3549:4427" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="4495:4907" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="4554:4778" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/Vehicle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding>
+            <marker date="1489165366000" expanded="true" signature="30:4490" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="61:274" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="311:4488" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="624:782" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="856:1024" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1162:1216" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1290:1385" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1415:1514" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1543:1634" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1669:1774" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1799:1890" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1915:2006" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2020:4481" ph="Vehicle Implementation" />
+            <marker date="1489165366000" expanded="true" signature="2099:2220" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2258:2304" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2339:2388" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2424:2475" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2537:3215" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2563:3066" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2853:2924" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2982:3051" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="3098:3178" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="3226:3628" ph="/* public bool Equal(Car o) ... */" />
+            <marker date="1489165366000" expanded="true" signature="3662:4461" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489165484000" expanded="true" signature="30:4915" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="64:4913" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="388:554" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="638:814" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="977:1108" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1182:1277" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1307:1406" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1435:1526" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1561:1666" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1691:1782" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1807:1898" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1912:4447" ph="Vehicle Implementation" />
+            <marker date="1489165484000" expanded="true" signature="1983:2104" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2142:2190" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2225:2274" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2310:2361" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2423:3101" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2449:2952" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2739:2810" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2868:2937" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2984:3064" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="3111:3518" ph="/* public bool Equal(Truck o) ... */" />
+            <marker date="1489165484000" expanded="true" signature="3549:4427" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="4495:4907" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="4554:4778" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/Vehicle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="178" column="82" lean-forward="false" selection-start-line="178" selection-start-column="82" selection-end-line="178" selection-end-column="82" />
+          <folding>
+            <marker date="1489165366000" expanded="true" signature="30:4490" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="61:274" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="311:4488" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="624:782" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="856:1024" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1162:1216" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1290:1385" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1415:1514" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1543:1634" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1669:1774" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1799:1890" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="1915:2006" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2020:4481" ph="Vehicle Implementation" />
+            <marker date="1489165366000" expanded="true" signature="2099:2220" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2258:2304" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2339:2388" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2424:2475" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2537:3215" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2563:3066" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2853:2924" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="2982:3051" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="3098:3178" ph="{...}" />
+            <marker date="1489165366000" expanded="true" signature="3226:3628" ph="/* public bool Equal(Car o) ... */" />
+            <marker date="1489165366000" expanded="true" signature="3662:4461" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="191" column="1" lean-forward="true" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
+          <folding>
+            <marker date="1489165484000" expanded="true" signature="30:4915" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="64:4913" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="388:554" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="638:814" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="977:1108" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1182:1277" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1307:1406" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1435:1526" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1561:1666" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1691:1782" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1807:1898" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="1912:4447" ph="Vehicle Implementation" />
+            <marker date="1489165484000" expanded="true" signature="1983:2104" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2142:2190" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2225:2274" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2310:2361" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2423:3101" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2449:2952" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2739:2810" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2868:2937" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="2984:3064" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="3111:3518" ph="/* public bool Equal(Truck o) ... */" />
+            <marker date="1489165484000" expanded="true" signature="3549:4427" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="4495:4907" ph="{...}" />
+            <marker date="1489165484000" expanded="true" signature="4554:4778" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
