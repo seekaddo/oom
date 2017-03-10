@@ -4,47 +4,41 @@ namespace Task3
 {
     public interface Vehicle
     {
-        double purchase_price();
-        string vehicle_type();
-        int release_year();
-        int purchase_year();
-        bool IsOld(int releaseYear, int purchaseYear);
-        void Details();
+        int Wheels { get; set; }
 
+        int Miles { get; set; }
+        string Model { get; set; }
+        string Manufacturer { get; set; }
+        double PurchasePrice { get; }
+        string VehicleType { get; set; }
+        int ReleaseYear { get; set; }
+        int PurchaseYear { get; set; }
+        bool IsOld(int releaseYear, int purchaseYear);
+        bool IsSold { get; set; }
+        void Details();
     }
 
 
-
-
-
-
-
-
-    public class Car:Vehicle
+    public class Car : Vehicle
     {
-        private int _wheel;
-        private int _miles;
-        private string _manufacturer;
-        private string _model;
-        private int _relYear;
-        private int _purchYear;
-        private readonly double  BasePrice = 7000;
 
-        public Car(int wheel, int miles, string make, string model)
+        private readonly double BasePrice = 7000;
+
+        public Car(int wheels, int miles, string make, string model)
         {
-            this._wheel = wheel;
-            this._manufacturer = make;
-            this._miles = miles;
-            this._model = model;
+            this.Wheels = wheels;
+            this.Manufacturer = make;
+            this.Miles = miles;
+            this.Model = model;
         }
 
 
-        public Car(string make, string model, int relYear,int purcYear)
+        public Car(string make, string model, int relYear, int purcYear)
         {
-            this._manufacturer = make;
-            this._model = model;
-            this._relYear = relYear;
-            this.PurchYear = purcYear;
+            this.Manufacturer = make;
+            this.Model = model;
+            this.ReleaseYear = relYear;
+            this.PurchaseYear = purcYear;
         }
 
         public Car(string make, string model, int relYear, int purcYear, bool isSold) : this(make, model, relYear,
@@ -54,90 +48,42 @@ namespace Task3
         }
 
 
-
-        public bool IsSold { get; set; }
-
-
-
-        public int RelYear
-        {
-            get { return _relYear; }
-            set { _relYear = value; }
-        }
-
-        public int PurchYear
-        {
-            get { return _purchYear; }
-            set { _purchYear = value; }
-        }
-
-        public string Model
-        {
-            get { return _model; }
-            set { _model = value; }
-        }
-        public string Manufacturer
-        {
-            get { return _manufacturer; }
-            set { _manufacturer = value; }
-        }
-        public int Miles
-        {
-            get { return _miles; }
-            set { _miles = value; }
-        }
-        public int Wheel
-        {
-            get { return _wheel; }
-            set { _wheel = value; }
-        }
-
-
-
-
-
         #region Vehicle Implementation
 
-        
-        public double purchase_price()
-        {
-            if (!IsSold)
-                return 0.0;
-            return BasePrice - (0.10 * _miles);
-        }
+        public bool IsSold { get; set; }
+        public int Wheels { get; set; }
+        public int Miles { get; set; }
+        public string Model { get; set; }
+        public string Manufacturer { get; set; }
+        public string VehicleType { get; set; }
+        public int ReleaseYear { get; set; }
+        public int PurchaseYear { get; set; }
 
-        public string vehicle_type()
+        public double PurchasePrice
         {
-            return "Car";
-        }
-
-        public int release_year()
-        {
-            return _relYear;
-        }
-
-        public int purchase_year()
-        {
-            return _purchYear;
+            get
+            {
+                if (!IsSold)
+                    return 0.0;
+                return BasePrice - (0.10 * Miles);
+            }
         }
 
         public bool IsOld(int releaseYear, int purchaseYear)
         {
             try
             {
-                if(releaseYear < 0 || purchaseYear < 0) throw new ArgumentException("Years are not negative values");
-                if(releaseYear > purchaseYear ) throw new ArgumentException("This car isn't made yet");
+                if (releaseYear < 0 || purchaseYear < 0) throw new ArgumentException("Years are not negative values");
+                if (releaseYear > purchaseYear) throw new ArgumentException("This car isn't made yet");
 
                 if (releaseYear - purchaseYear < 10)
                 {
-
                     return false;
                 }
                 else if (releaseYear - purchaseYear > 30)
                 {
                     return true;
                 }
-
             }
             catch (Exception e)
             {
@@ -165,8 +111,6 @@ namespace Task3
         */
 
 
-
-
         public void Details()
         {
             var sld = this.IsSold ? "Yes" : "No";
@@ -174,9 +118,9 @@ namespace Task3
                       $"Manufacturer         :{Manufacturer}" + Environment.NewLine +
                       $"Model                :{Model}" + Environment.NewLine +
                       $"Miles                :{Miles}" + Environment.NewLine +
-                      $"Wheels               :{_wheel}" + Environment.NewLine +
-                      $"Release Year         :${RelYear}" + Environment.NewLine +
-                      $"Purchase Year        :{PurchYear}" + Environment.NewLine +
+                      $"Wheels               :{Wheels}" + Environment.NewLine +
+                      $"Release Year         :${ReleaseYear}" + Environment.NewLine +
+                      $"Purchase Year        :{PurchaseYear}" + Environment.NewLine +
                       $"Available            :{sld}" + Environment.NewLine +
                       Environment.NewLine;
 
@@ -185,6 +129,5 @@ namespace Task3
         }
 
         #endregion
-
     }
 }

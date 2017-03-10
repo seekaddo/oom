@@ -15,34 +15,26 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Task3/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="191" column="1" lean-forward="true" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
+            <state relative-caret-position="555">
+              <caret line="131" column="27" lean-forward="false" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
               <folding>
-                <marker date="1489165484000" expanded="true" signature="30:4915" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="64:4913" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="388:554" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="638:814" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="977:1108" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="1182:1277" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="1307:1406" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="1435:1526" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="1561:1666" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="1691:1782" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="1807:1898" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="1912:4447" ph="Vehicle Implementation" />
-                <marker date="1489165484000" expanded="true" signature="1983:2104" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="2142:2190" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="2225:2274" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="2310:2361" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="2423:3101" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="2449:2952" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="2739:2810" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="2868:2937" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="2984:3064" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="3111:3518" ph="/* public bool Equal(Truck o) ... */" />
-                <marker date="1489165484000" expanded="true" signature="3549:4427" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="4495:4907" ph="{...}" />
-                <marker date="1489165484000" expanded="true" signature="4554:4778" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="30:4022" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="65:4020" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="202:365" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="450:630" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="787:922" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="933:3543" ph="Vehicle Implementation" />
+                <marker date="1489171741000" expanded="true" signature="1351:1533" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="1377:1523" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="1595:2272" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="1621:2123" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="1912:1982" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="2040:2109" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="2155:2235" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="2283:2685" ph="/* public bool Equal(Car o) ... */" />
+                <marker date="1489171741000" expanded="true" signature="2717:3523" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="3592:4014" ph="{...}" />
+                <marker date="1489171741000" expanded="true" signature="3653:3880" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,33 +43,25 @@
       <file leaf-file-name="Vehicle.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task3/Vehicle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="178" column="82" lean-forward="false" selection-start-line="178" selection-start-column="82" selection-end-line="178" selection-end-column="82" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="50" lean-forward="false" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
               <folding>
-                <marker date="1489165366000" expanded="true" signature="30:4490" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="61:274" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="311:4488" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="624:782" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="856:1024" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="1162:1216" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="1290:1385" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="1415:1514" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="1543:1634" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="1669:1774" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="1799:1890" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="1915:2006" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="2020:4481" ph="Vehicle Implementation" />
-                <marker date="1489165366000" expanded="true" signature="2099:2220" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="2258:2304" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="2339:2388" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="2424:2475" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="2537:3215" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="2563:3066" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="2853:2924" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="2982:3051" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="3098:3178" ph="{...}" />
-                <marker date="1489165366000" expanded="true" signature="3226:3628" ph="/* public bool Equal(Car o) ... */" />
-                <marker date="1489165366000" expanded="true" signature="3662:4461" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="30:3863" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="61:485" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="518:3861" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="645:801" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="876:1048" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="1186:1240" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="1251:3855" ph="Vehicle Implementation" />
+                <marker date="1489171426000" expanded="true" signature="1669:1845" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="1695:1835" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="1907:2584" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="1933:2435" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="2224:2294" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="2352:2421" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="2467:2547" ph="{...}" />
+                <marker date="1489171426000" expanded="true" signature="2595:2997" ph="/* public bool Equal(Car o) ... */" />
+                <marker date="1489171426000" expanded="true" signature="3029:3835" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -185,11 +169,12 @@
       <workItem from="1488990418874" duration="1299000" />
       <workItem from="1489154369461" duration="5931000" />
       <workItem from="1489162162512" duration="3474000" />
+      <workItem from="1489165967525" duration="3874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10704000" />
+    <option name="totallyTimeSpent" value="14578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -241,64 +226,48 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489165484000" expanded="true" signature="30:4915" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="64:4913" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="388:554" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="638:814" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="977:1108" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1182:1277" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1307:1406" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1435:1526" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1561:1666" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1691:1782" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1807:1898" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1912:4447" ph="Vehicle Implementation" />
-            <marker date="1489165484000" expanded="true" signature="1983:2104" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2142:2190" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2225:2274" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2310:2361" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2423:3101" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2449:2952" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2739:2810" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2868:2937" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2984:3064" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="3111:3518" ph="/* public bool Equal(Truck o) ... */" />
-            <marker date="1489165484000" expanded="true" signature="3549:4427" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="4495:4907" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="4554:4778" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="30:4022" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="65:4020" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="202:365" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="450:630" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="787:922" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="933:3543" ph="Vehicle Implementation" />
+            <marker date="1489171741000" expanded="true" signature="1351:1533" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1377:1523" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1595:2272" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1621:2123" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1912:1982" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2040:2109" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2155:2235" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2283:2685" ph="/* public bool Equal(Car o) ... */" />
+            <marker date="1489171741000" expanded="true" signature="2717:3523" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="3592:4014" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="3653:3880" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task3/Vehicle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        <state relative-caret-position="2670">
+          <caret line="178" column="82" lean-forward="false" selection-start-line="178" selection-start-column="82" selection-end-line="178" selection-end-column="82" />
           <folding>
-            <marker date="1489165366000" expanded="true" signature="30:4490" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="61:274" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="311:4488" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="624:782" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="856:1024" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1162:1216" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1290:1385" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1415:1514" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1543:1634" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1669:1774" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1799:1890" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1915:2006" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2020:4481" ph="Vehicle Implementation" />
-            <marker date="1489165366000" expanded="true" signature="2099:2220" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2258:2304" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2339:2388" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2424:2475" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2537:3215" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2563:3066" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2853:2924" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2982:3051" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="3098:3178" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="3226:3628" ph="/* public bool Equal(Car o) ... */" />
-            <marker date="1489165366000" expanded="true" signature="3662:4461" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="30:3863" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="61:485" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="518:3861" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="645:801" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="876:1048" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1186:1240" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1251:3855" ph="Vehicle Implementation" />
+            <marker date="1489171426000" expanded="true" signature="1669:1845" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1695:1835" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1907:2584" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1933:2435" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2224:2294" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2352:2421" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2467:2547" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2595:2997" ph="/* public bool Equal(Car o) ... */" />
+            <marker date="1489171426000" expanded="true" signature="3029:3835" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -308,98 +277,125 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489165484000" expanded="true" signature="30:4915" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="64:4913" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="388:554" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="638:814" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="977:1108" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1182:1277" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1307:1406" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1435:1526" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1561:1666" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1691:1782" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1807:1898" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1912:4447" ph="Vehicle Implementation" />
-            <marker date="1489165484000" expanded="true" signature="1983:2104" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2142:2190" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2225:2274" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2310:2361" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2423:3101" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2449:2952" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2739:2810" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2868:2937" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2984:3064" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="3111:3518" ph="/* public bool Equal(Truck o) ... */" />
-            <marker date="1489165484000" expanded="true" signature="3549:4427" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="4495:4907" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="4554:4778" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="30:4022" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="65:4020" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="202:365" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="450:630" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="787:922" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="933:3543" ph="Vehicle Implementation" />
+            <marker date="1489171741000" expanded="true" signature="1351:1533" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1377:1523" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1595:2272" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1621:2123" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1912:1982" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2040:2109" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2155:2235" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2283:2685" ph="/* public bool Equal(Car o) ... */" />
+            <marker date="1489171741000" expanded="true" signature="2717:3523" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="3592:4014" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="3653:3880" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task3/Vehicle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="178" column="82" lean-forward="false" selection-start-line="178" selection-start-column="82" selection-end-line="178" selection-end-column="82" />
+        <state relative-caret-position="1530">
+          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
           <folding>
-            <marker date="1489165366000" expanded="true" signature="30:4490" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="61:274" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="311:4488" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="624:782" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="856:1024" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1162:1216" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1290:1385" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1415:1514" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1543:1634" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1669:1774" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1799:1890" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="1915:2006" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2020:4481" ph="Vehicle Implementation" />
-            <marker date="1489165366000" expanded="true" signature="2099:2220" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2258:2304" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2339:2388" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2424:2475" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2537:3215" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2563:3066" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2853:2924" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="2982:3051" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="3098:3178" ph="{...}" />
-            <marker date="1489165366000" expanded="true" signature="3226:3628" ph="/* public bool Equal(Car o) ... */" />
-            <marker date="1489165366000" expanded="true" signature="3662:4461" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="30:3863" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="61:485" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="518:3861" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="645:801" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="876:1048" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1186:1240" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1251:3855" ph="Vehicle Implementation" />
+            <marker date="1489171426000" expanded="true" signature="1669:1845" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1695:1835" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1907:2584" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1933:2435" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2224:2294" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2352:2421" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2467:2547" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2595:2997" ph="/* public bool Equal(Car o) ... */" />
+            <marker date="1489171426000" expanded="true" signature="3029:3835" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task3/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="191" column="1" lean-forward="true" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489165484000" expanded="true" signature="30:4915" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="64:4913" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="388:554" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="638:814" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="977:1108" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1182:1277" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1307:1406" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1435:1526" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1561:1666" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1691:1782" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1807:1898" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="1912:4447" ph="Vehicle Implementation" />
-            <marker date="1489165484000" expanded="true" signature="1983:2104" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2142:2190" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2225:2274" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2310:2361" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2423:3101" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2449:2952" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2739:2810" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2868:2937" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="2984:3064" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="3111:3518" ph="/* public bool Equal(Truck o) ... */" />
-            <marker date="1489165484000" expanded="true" signature="3549:4427" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="4495:4907" ph="{...}" />
-            <marker date="1489165484000" expanded="true" signature="4554:4778" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="30:4022" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="65:4020" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="202:365" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="450:630" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="787:922" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="933:3543" ph="Vehicle Implementation" />
+            <marker date="1489171741000" expanded="true" signature="1351:1533" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1377:1523" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1595:2272" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1621:2123" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1912:1982" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2040:2109" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2155:2235" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2283:2685" ph="/* public bool Equal(Car o) ... */" />
+            <marker date="1489171741000" expanded="true" signature="2717:3523" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="3592:4014" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="3653:3880" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/Vehicle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="50" lean-forward="false" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
+          <folding>
+            <marker date="1489171426000" expanded="true" signature="30:3863" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="61:485" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="518:3861" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="645:801" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="876:1048" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1186:1240" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1251:3855" ph="Vehicle Implementation" />
+            <marker date="1489171426000" expanded="true" signature="1669:1845" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1695:1835" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1907:2584" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="1933:2435" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2224:2294" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2352:2421" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2467:2547" ph="{...}" />
+            <marker date="1489171426000" expanded="true" signature="2595:2997" ph="/* public bool Equal(Car o) ... */" />
+            <marker date="1489171426000" expanded="true" signature="3029:3835" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="131" column="27" lean-forward="false" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
+          <folding>
+            <marker date="1489171741000" expanded="true" signature="30:4022" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="65:4020" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="202:365" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="450:630" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="787:922" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="933:3543" ph="Vehicle Implementation" />
+            <marker date="1489171741000" expanded="true" signature="1351:1533" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1377:1523" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1595:2272" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1621:2123" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="1912:1982" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2040:2109" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2155:2235" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="2283:2685" ph="/* public bool Equal(Car o) ... */" />
+            <marker date="1489171741000" expanded="true" signature="2717:3523" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="3592:4014" ph="{...}" />
+            <marker date="1489171741000" expanded="true" signature="3653:3880" ph="{...}" />
           </folding>
         </state>
       </provider>
