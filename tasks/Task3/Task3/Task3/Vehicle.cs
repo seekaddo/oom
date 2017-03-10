@@ -119,7 +119,7 @@ namespace Task3
                       $"Model                :{Model}" + Environment.NewLine +
                       $"Miles                :{Miles}" + Environment.NewLine +
                       $"Wheels               :{Wheels}" + Environment.NewLine +
-                      $"Release Year         :${ReleaseYear}" + Environment.NewLine +
+                      $"Release Year         :{ReleaseYear}" + Environment.NewLine +
                       $"Purchase Year        :{PurchaseYear}" + Environment.NewLine +
                       $"Available            :{sld}" + Environment.NewLine +
                       Environment.NewLine;
