@@ -2,11 +2,11 @@
 
 namespace Task3
 {
-    public class Truck : Vehicle
+    public class Truck : IVehicle
     {
 
 
-        private readonly double BasePrice = 7000;
+        private static readonly double BasePrice = 7000;
 
         public Truck(int wheel, int miles, string manufacturer, string model)
         {
@@ -34,7 +34,7 @@ namespace Task3
         }
 
 
-        #region Vehicle Implementation
+        #region IVehicle Implementation
 
         public bool IsSold { get; set; }
         public int Wheels { get; set; }
@@ -100,7 +100,7 @@ namespace Task3
         public void Details()
         {
             var sld = this.IsSold ? "Yes" : "No";
-            var str = $"Vehicle Type         :{Manufacturer}" + Environment.NewLine +
+            var str = $"IVehicle Type         :{Manufacturer}" + Environment.NewLine +
                       $"Manufacturer         :{Manufacturer}" + Environment.NewLine +
                       $"Model                :{Model}" + Environment.NewLine +
                       $"Miles                :{Miles}" + Environment.NewLine +
@@ -119,7 +119,7 @@ namespace Task3
 
         public static void Main(string[] args)
         {
-            var vehls = new Vehicle[]
+            var vehls = new IVehicle[]
             {
                 new Truck(8, 1000, "Ford", "F15000", 2011, 2016, false),
                 new Truck(4, 13000, "Ford", "F-150", 2009, 2014, false),
