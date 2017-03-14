@@ -2,32 +2,47 @@
 
 namespace Task3
 {
-    public class Truck : IVehicle
+    public interface IVehicle
+    {
+        int Wheels { get; set; }
+
+        int Miles { get; set; }
+        string Model { get; set; }
+        string Manufacturer { get; set; }
+        double PurchasePrice { get; }
+        string VehicleType { get; set; }
+        int ReleaseYear { get; set; }
+        int PurchaseYear { get; set; }
+        bool IsOld(int releaseYear, int purchaseYear);
+        bool IsSold { get; set; }
+        void Details();
+    }
+
+
+    public class Car : IVehicle
     {
         private static readonly double BasePrice = 7000;
 
-        public Truck(int wheel, int miles, string manufacturer, string model)
+        public Car(int wheels, int miles, string make, string model)
         {
-            this.Wheels = wheel;
-            this.Manufacturer = manufacturer;
+            this.Wheels = wheels;
+            this.Manufacturer = make;
             this.Miles = miles;
             this.Model = model;
         }
 
 
-        public Truck(string manufacturer, string model, int relYear, int purcYear)
+        public Car(string make, string model, int relYear, int purcYear)
         {
-            this.Manufacturer = manufacturer;
+            this.Manufacturer = make;
             this.Model = model;
             this.ReleaseYear = relYear;
             this.PurchaseYear = purcYear;
         }
 
-        public Truck(int wheel, int miles, string make, string model, int relYear,
-            int purcYear, bool isSold) : this(wheel, miles, make, model)
+        public Car(string make, string model, int relYear, int purcYear, bool isSold) : this(make, model, relYear,
+            purcYear)
         {
-            this.ReleaseYear = relYear;
-            this.ReleaseYear = purcYear;
             this.IsSold = isSold;
         }
 
@@ -49,7 +64,7 @@ namespace Task3
             {
                 if (!IsSold)
                     return 0.0;
-                return BasePrice - (0.10 * ReleaseYear);
+                return BasePrice - (0.10 * Miles);
             }
         }
 
@@ -80,7 +95,7 @@ namespace Task3
 
         public void Details()
         {
-            var sld = this.IsSold ? "No" : "Yes";
+            var sld = this.IsSold ? "Yes" : "No";
             var str =
                 $"Manufacturer         :{Manufacturer}" + Environment.NewLine +
                 $"Model                :{Model}" + Environment.NewLine +
@@ -96,29 +111,5 @@ namespace Task3
         }
 
         #endregion
-
-
-        public static void Main(string[] args)
-        {
-            var vehls = new IVehicle[]
-            {
-                new Truck(8, 1000, "Ford", "F15000", 2011, 2016, false),
-                new Truck(4, 13000, "Ford", "F-150", 2009, 2014, false),
-                new Car("Ford", "Super Duty", 2012, 2017, true),
-            };
-
-            var car1 = vehls[2];
-            car1.Miles = 12000;
-            car1.Wheels = 4;
-            Console.WriteLine("The Purchase Price is: {0}",car1.PurchasePrice);
-            car1.Details();
-
-
-            foreach (var vehl in vehls)
-            {
-                vehl.Details();
-                Console.WriteLine();
-            }
-        }
     }
 }
