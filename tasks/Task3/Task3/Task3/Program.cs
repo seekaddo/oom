@@ -8,27 +8,27 @@ namespace Task3
 
         public Truck(int wheel, int miles, string manufacturer, string model)
         {
-            this.Wheels = wheel;
-            this.Manufacturer = manufacturer;
-            this.Miles = miles;
-            this.Model = model;
+            Wheels = wheel;
+            Manufacturer = manufacturer;
+            Miles = miles;
+            Model = model;
         }
 
 
         public Truck(string manufacturer, string model, int relYear, int purcYear)
         {
-            this.Manufacturer = manufacturer;
-            this.Model = model;
-            this.ReleaseYear = relYear;
-            this.PurchaseYear = purcYear;
+            Manufacturer = manufacturer;
+            Model = model;
+            ReleaseYear = relYear;
+            PurchaseYear = purcYear;
         }
 
         public Truck(int wheel, int miles, string make, string model, int relYear,
             int purcYear, bool isSold) : this(wheel, miles, make, model)
         {
-            this.ReleaseYear = relYear;
-            this.ReleaseYear = purcYear;
-            this.IsSold = isSold;
+            ReleaseYear = relYear;
+            ReleaseYear = purcYear;
+            IsSold = isSold;
         }
 
 
@@ -64,7 +64,7 @@ namespace Task3
                 {
                     return false;
                 }
-                else if (releaseYear - purchaseYear > 30)
+                if (releaseYear - purchaseYear > 30)
                 {
                     return true;
                 }
@@ -80,7 +80,7 @@ namespace Task3
 
         public void Details()
         {
-            var sld = this.IsSold ? "No" : "Yes";
+            var sld = IsSold ? "No" : "Yes";
             var str =
                 $"Manufacturer         :{Manufacturer}" + Environment.NewLine +
                 $"Model                :{Model}" + Environment.NewLine +
@@ -104,7 +104,7 @@ namespace Task3
             {
                 new Truck(8, 1000, "Ford", "F15000", 2011, 2016, false),
                 new Truck(4, 13000, "Ford", "F-150", 2009, 2014, false),
-                new Car("Ford", "Super Duty", 2012, 2017, true),
+                new Car("Ford", "Super Duty", 2012, 2017, true)
             };
 
             var car1 = vehls[2];

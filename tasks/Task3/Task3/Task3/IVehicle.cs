@@ -25,25 +25,25 @@ namespace Task3
 
         public Car(int wheels, int miles, string make, string model)
         {
-            this.Wheels = wheels;
-            this.Manufacturer = make;
-            this.Miles = miles;
-            this.Model = model;
+            Wheels = wheels;
+            Manufacturer = make;
+            Miles = miles;
+            Model = model;
         }
 
 
         public Car(string make, string model, int relYear, int purcYear)
         {
-            this.Manufacturer = make;
-            this.Model = model;
-            this.ReleaseYear = relYear;
-            this.PurchaseYear = purcYear;
+            Manufacturer = make;
+            Model = model;
+            ReleaseYear = relYear;
+            PurchaseYear = purcYear;
         }
 
         public Car(string make, string model, int relYear, int purcYear, bool isSold) : this(make, model, relYear,
             purcYear)
         {
-            this.IsSold = isSold;
+            IsSold = isSold;
         }
 
 
@@ -79,7 +79,7 @@ namespace Task3
                 {
                     return false;
                 }
-                else if (releaseYear - purchaseYear > 30)
+                if (releaseYear - purchaseYear > 30)
                 {
                     return true;
                 }
@@ -95,7 +95,7 @@ namespace Task3
 
         public void Details()
         {
-            var sld = this.IsSold ? "Yes" : "No";
+            var sld = IsSold ? "Yes" : "No";
             var str =
                 $"Manufacturer         :{Manufacturer}" + Environment.NewLine +
                 $"Model                :{Model}" + Environment.NewLine +
