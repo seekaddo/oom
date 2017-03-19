@@ -11,7 +11,10 @@ namespace Task3
             {
                 new Truck("Ford", "F15000", 2011, 2016,true,8,23000),
                 new Truck("Ford", "F-150", 2009, 2014,false,8,13000),
-                new Car("Toyota", "Corolla",2009, 2014,true,8,91000)
+                new Truck("Toyota", "Toyota Hilux",2009, 2014,true,4,91000),
+                new Car("Toyota", "Corolla",2009, 2014,true,8,91000),
+                new Car("Tesla", "Super charger",2014, 2017,false,4,72000)
+
             };
 
 
@@ -33,13 +36,6 @@ namespace Task3
                 Console.WriteLine($"Manufacturer: {vls.Manufacturer} --> Model: {vls.Model}");
             }
 
-            /*//var vehls = new Truck("Ford", "F15000", 2011, 2016, true, 8, 23000);
-            //var settings = new JsonSerializerSettings() { Formatting = Formatting.Indented, TypeNameHandling = TypeNameHandling.Auto };
-            string sl = JsonConvert.SerializeObject(vehls[2],Formatting.Indented);
-            Console.WriteLine(sl);
-
-            var tk = JsonConvert.DeserializeObject<Car>(sl);
-            Console.WriteLine(tk.Manufacturer);*/
 
 
         }
