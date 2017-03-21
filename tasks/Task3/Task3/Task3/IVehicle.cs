@@ -7,14 +7,14 @@ namespace Task3
         int Wheels { get; set; }
 
         int Miles { get; set; }
-        string Model { get; set; }
-        string Manufacturer { get; set; }
+        string Model { get;}
+        string Manufacturer { get;}
         double PurchasePrice { get; }
         string VehicleType { get; set; }
         int ReleaseYear { get; set; }
         int PurchaseYear { get; set; }
         bool IsOld(int releaseYear, int purchaseYear);
-        bool IsSold { get; set; }
+        bool IsSold { get;}
         void Details();
     }
 
@@ -49,11 +49,11 @@ namespace Task3
 
         #region IVehicle Implementation
 
-        public bool IsSold { get; set; }
+        public bool IsSold { get;}
         public int Wheels { get; set; }
         public int Miles { get; set; }
-        public string Model { get; set; }
-        public string Manufacturer { get; set; }
+        public string Model { get;}
+        public string Manufacturer { get; }
         public string VehicleType { get; set; }
         public int ReleaseYear { get; set; }
         public int PurchaseYear { get; set; }
