@@ -34,11 +34,11 @@ namespace Task3
 
         #region IVehicle Implementation
 
-        public bool IsSold { get; set; }
+        public bool IsSold { get;}
         public int Wheels { get; set; }
         public int Miles { get; set; }
-        public string Model { get; set; }
-        public string Manufacturer { get; set; }
+        public string Model { get;}
+        public string Manufacturer { get;}
         public string VehicleType { get; set; }
         public int ReleaseYear { get; set; }
         public int PurchaseYear { get; set; }
