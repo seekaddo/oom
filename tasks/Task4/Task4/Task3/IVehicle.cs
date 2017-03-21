@@ -5,11 +5,11 @@ namespace Task3
 {
     public interface IVehicle
     {
-        string Manufacturer { get; set; }
+        string Manufacturer { get;}
         string Model { get; set; }
         int ReleaseYear { get; set; }
         int PurchaseYear { get; set; }
-        bool IsSold { get; set; }
+        bool IsSold { get;}
         int Wheels { get; set; }
         int Miles { get; set; }
         double PurchasePrice { get; }
@@ -65,7 +65,7 @@ namespace Task3
 
         #region IVehicle Implementation
 
-        public string Manufacturer { get; set; }
+        public string Manufacturer { get;}
         public string Model { get; set; }
         public int ReleaseYear { get; set; }
         public int PurchaseYear { get; set; }
@@ -75,7 +75,7 @@ namespace Task3
         [JsonIgnore]
         public string VehicleType => "Car";
         [JsonIgnore]
-        public bool IsSold { get; set; }
+        public bool IsSold { get;}
 
 
 
