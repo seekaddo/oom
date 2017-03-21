@@ -22,7 +22,7 @@ namespace Task3
             var settings = new JsonSerializerSettings() { Formatting = Formatting.Indented, TypeNameHandling = TypeNameHandling.Auto };
             var vehicles = JsonConvert.SerializeObject(vehls, settings);
 
-            var cwd_path = Environment.CurrentDirectory;
+            var cwd_path = Directory.GetCurrentDirectory();
             var filename = Path.Combine(cwd_path, "vehicles.json");
             File.WriteAllText(filename,vehicles);
 
