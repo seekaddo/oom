@@ -8,13 +8,13 @@ namespace Task3.TestFiles
      [TestFixture]
     public class TruckTest
     {
-
+		[Test]
         public void CreateTrucks()
         {
             var trk = new Truck("Toyota", "Toyota Hilux",2009, 2014,true,4,91000);
 
 			Assert.IsTrue(trk.Manufacturer == "Toyota");
-			Assert.IsTrue(trk.Manufacturer == "Toyota Hilux");
+			Assert.IsTrue(trk.Model == "Toyota Hilux");
 			Assert.IsTrue(trk.ReleaseYear == 2009);
 			Assert.IsTrue(trk.PurchaseYear == 2014);
             Assert.IsTrue(trk.IsSold);

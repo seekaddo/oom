@@ -6,13 +6,13 @@ namespace Task3.TestFiles
     [TestFixture]
     public class CarsTest
     {
-
+		[Test]
         public void CreateCar()
         {
             var car1 = new Car("Toyota", "Corolla",2009, 2014,true,4,91000);
 
 			Assert.IsTrue(car1.Manufacturer == "Toyota");
-			Assert.IsTrue(car1.Manufacturer == "Corolla");
+			Assert.IsTrue(car1.Model == "Corolla");
 			Assert.IsTrue(car1.ReleaseYear == 2009);
 			Assert.IsTrue(car1.PurchaseYear == 2014);
             Assert.IsTrue(car1.IsSold);
