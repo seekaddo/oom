@@ -13,10 +13,10 @@ namespace Task3.TestFiles
         {
             var trk = new Truck("Toyota", "Toyota Hilux",2009, 2014,true,4,91000);
 
-            Assert.IsTrue(trk.Manufacturer == "Ford");
-            Assert.IsTrue(trk.Manufacturer == "Super Duty");
-            Assert.IsTrue(trk.ReleaseYear == 2012);
-            Assert.IsTrue(trk.PurchaseYear == 2017);
+			Assert.IsTrue(trk.Manufacturer == "Toyota");
+			Assert.IsTrue(trk.Manufacturer == "Toyota Hilux");
+			Assert.IsTrue(trk.ReleaseYear == 2009);
+			Assert.IsTrue(trk.PurchaseYear == 2014);
             Assert.IsTrue(trk.IsSold);
         }
 
