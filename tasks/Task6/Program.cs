@@ -1,14 +1,18 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
+using System.Threading.Tasks;
+using static Task6.Employee;
 
 namespace Task6
 {
-    internal class Program
+    public class Program
     {
+
+
+
         public static void Main(string[] args)
         {
 
@@ -20,6 +24,7 @@ namespace Task6
                                    new Employee("James Braokigi","ksl0105","Techer","Wiener Kindergarten","Austria"),
                                    new Employee("Marry Adicos","ms4627xxx","Software Architect","OMV","Austria"),
                                    new Employee("Kannus Gerrad","as2003","IT Specialist","Kaspersky Lab","USA"),
+                                   new Employee("Hausio Gastro","kia200s","C/C++ Developer","KIA Motors","Germany"),
                                    new Employee("Adam Borrows",null,null,"Online","Germany")
                                };
 
@@ -55,11 +60,22 @@ namespace Task6
             );
 
 
+            //<summary>
+            //Using Async and await
+            //</summary>
 
-            //Console.ReadKey();
+            Console.WriteLine("<----------List of Employees in Germany With Async---------->");
+            var lempy =  GetGermanEmployeeListAsync(employeeList);
+
+
+            foreach (var l in  lempy.Result)
+            {
+                Console.WriteLine("Name: {0} jobType: {1}",l.Name,l.JobType);
+            }
 
 
 
         }
+
     }
 }
