@@ -32,6 +32,7 @@ namespace Task6
 
 
         public bool Isemployed()
+
         {
             return this.JobType != null;
         }

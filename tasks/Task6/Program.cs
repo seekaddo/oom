@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
-using System.Threading.Tasks;
+using System.Runtime.InteropServices;
+using System.Threading;
 using static Task6.Employee;
 
 namespace Task6
@@ -35,7 +36,11 @@ namespace Task6
             var developers = new Subject<Employee>();
             Console.WriteLine("<----------List of Software Developers---------->");
 
-            developers.Subscribe(p => Console.WriteLine("Name: {0,-5}  Location:{1}",p.Name,p.Location));
+            developers.Subscribe(p =>
+                                 {
+                                     Thread.Sleep(TimeSpan.FromSeconds(3));
+                                     Console.WriteLine("Name: {0,-5}  Location:{1}", p.Name, p.Location);
+                                 });
 
             var re = from p in employeeList
                      where p.JobType != null && p.JobType.Contains("Developer")
@@ -54,7 +59,11 @@ namespace Task6
             Console.WriteLine("<----------List of Employees in Germany---------->");
 
             germanyemployees.Subscribe(
-                x => Console.WriteLine("Name: {0,-5}     JobType: {1,-5}", x.Name,x.JobType),
+                x =>
+                {
+                    Thread.Sleep(TimeSpan.FromSeconds(2));
+                    Console.WriteLine("Name: {0,-5}     JobType: {1,-5}", x.Name, x.JobType);
+                },
                 ex => Console.WriteLine("OnError: {0}",ex.Message),
                 ()=> Console.WriteLine("OnComplete")
             );
