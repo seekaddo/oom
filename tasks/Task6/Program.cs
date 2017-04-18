@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
-using System.Runtime.InteropServices;
 using System.Threading;
+using System.Threading.Tasks;
 using static Task6.Employee;
 
 namespace Task6
@@ -61,7 +61,7 @@ namespace Task6
             germanyemployees.Subscribe(
                 x =>
                 {
-                    Thread.Sleep(TimeSpan.FromSeconds(2));
+                    Thread.Sleep(TimeSpan.FromSeconds(0.2));
                     Console.WriteLine("Name: {0,-5}     JobType: {1,-5}", x.Name, x.JobType);
                 },
                 ex => Console.WriteLine("OnError: {0}",ex.Message),
@@ -82,9 +82,37 @@ namespace Task6
                 Console.WriteLine("Name: {0} jobType: {1}",l.Name,l.JobType);
             }
 
+            GetEmlopyeesInAustria(employeeList);
+
+
+            Console.WriteLine();
+            Console.ReadKey();
+
+
+
 
 
         }
+     private static async void GetEmlopyeesInAustria(IReadOnlyCollection<Employee> employees)
+                {
+                    var intervals = Observable.Interval(TimeSpan.FromSeconds(2)).StartWith(0);
+                    var emyes = from em in employees where em.Location.Equals("Austria") select em;
+
+                    var evenNumbersAtIntervals = intervals.Zip(emyes, (_, num) => num);
+
+                    try
+                    {
+                        await evenNumbersAtIntervals.ForEachAsync(
+                            x => Console.WriteLine("Name: {0}      JobType: {1}", x.Name,x.JobType)
+                        );
+
+                        Console.WriteLine("Complete");
+                    }
+                    catch(Exception e)
+                    {
+                        Console.WriteLine("Exception " + e.Message);
+                    }
+                }
 
     }
 }
